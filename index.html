@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верификация ИНН Украина</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/app.js"></script>
+</head>
+<body>
+    <div class="container vh-100 vw-50 bg-info mt-3 p-2">
+        <h1 class="text-center mt-3">Верификация ИНН физического лица (Украина)</h1>
+
+        <div class="container w-75 mt-5 fs-3">
+            <label for="innEnter" class="form-label">Введите номер ИНН</label>
+            <input type="text" class="form-control validation" id="innEnter" required autofocus>
+            <button onclick="checkTheNumber()" type="button" class="btn btn-light mt-5">Проверить номер</button>
+            <div  class="invalid-feedback numberIsInvalid mt-5 fs-5"></div>           
+            <div class="container checkINN d-none  mt-5 p-0">
+                    <output class="innIsOk">gdgdfgdf</output> <br>
+                    <output class="dateOfBirth">gdgsgsdg</output> <br>
+                    <output class="fullAge">gsdgsdgds</output> <br>
+                    <output class="gender">gsdgsdgds</output>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
